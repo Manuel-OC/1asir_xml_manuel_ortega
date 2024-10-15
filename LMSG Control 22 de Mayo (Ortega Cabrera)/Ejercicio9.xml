@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+<libros>
+    <libro id='1'>
+        <codigo>22222</codigo>
+        <nombre>Juego de Tronos</nombre>
+        <editorial>Edebé</editorial>
+        <ano>2007</ano>
+        <autor>George RR Martin</autor>
+    </libro>
+    <libro id='2'>
+        <codigo>33333</codigo>
+        <nombre>Harry Potter</nombre>
+        <editorial>Anaya</editorial>
+        <ano>1997</ano>
+        <autor>JK Rowling</autor>
+    </libro>
+</libros>
+<prestamos>
+    <prestamo>
+        <ejemplar>1</ejemplar>
+        <socio>Lolo</socio>
+        <fecha>21-05-2024</fecha>
+    </prestamo>
+    <prestamo>
+        <ejemplar>2</ejemplar>
+        <socio>Alberto</socio>
+        <fecha>22-05-2024</fecha>
+    </prestamo>
+</prestamos>
+<socios>
+    <socio>
+        <dni>33333</dni>
+        <nombre>Lolo</nombre>
+        <direccion>calle falsa 1</direccion>
+    </socio>
+    <socio>
+        <dni>888888</dni>
+        <nombre>Alberto</nombre>
+        <direccion>calle falsa 2</direccion>
+    </socio>
+</socios>
+</libreria>

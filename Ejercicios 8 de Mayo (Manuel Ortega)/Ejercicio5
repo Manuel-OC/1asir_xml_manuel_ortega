@@ -1,0 +1,27 @@
+a) 
+Con esta consulta obtengo los códigos de los ciclos que hay en el módulo de LMSG (códigos de los ciclos donde se imparte dicha asignatura).
+//modulos/modulo[./nombre='Lenguajes de marcas y sistemas de gestión de información']/ciclo
+
+Y con esta obtengo el nombre de los ciclos cuyo código (id) sea igual a alguno de los obtenidos en la consulta anterior
+//ciclos/ciclo[@id = //modulos/modulo[./nombre='Lenguajes de marcas y sistemas de gestión de información']/ciclo]/nombre/text()
+
+b)
+Con esta consulta obtengo el id de los ciclos cuyo valor grado sea "Superior"
+//ciclos/ciclo/grado[.='Superior']/../@id
+
+Y con esta obtengo el nombre de los módulos cuyos ciclos sean al menos uno de los obtenidos en la consulta anterior
+//modulos/modulo[./ciclo = //ciclos/ciclo/grado[.='Superior']/../@id]/nombre/text()
+
+c)
+Con esta consulta obtenemos el id de los ciclos aprobados en 2008
+//ies/ciclos/ciclo[./decretoTitulo/@ano = "2008"]/@id
+
+Y con esta mostramos el nombre de los módulos que tengan un elemento ciclo igual a las siglas obtenidas en la consulta anterior
+//ies/modulos/modulo[./ciclo = //ies/ciclos/ciclo[./decretoTitulo/@ano = "2008"]/@id]/nombre/text()
+
+d)
+Con esta consulta obtengo los ciclos de los módulos de primero
+//ies/modulos/modulo[./curso = 1]/ciclo/text()
+
+Y con esta el grado de los ciclos cuyo id sea igual a los obtenidos en la consulta anterior
+//ies/ciclos/ciclo[./@id = //ies/modulos/modulo[./curso = 1]/ciclo/text()]/grado/text()

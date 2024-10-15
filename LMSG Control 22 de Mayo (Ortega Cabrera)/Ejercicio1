@@ -1,0 +1,15 @@
+//hardwareCatalog/item[./brand!='ASUS']/model/text()
+
+//hardwareCatalog/item[./type='Processor']/model/text()
+
+//hardwareCatalog/item[./brand='NVIDIA']/specifications/text()
+
+//hardwareCatalog/item[./model='Core i7-9700K']/specifications/text()
+
+//hardwareCatalog/item[./type='Motherboard']/specifications/text()
+
+//hardwareCatalog/item[./specifications!='%7200RPM']/brand/text()
+
+//hardwareCatalog/item[./type!='RAM']/brand/text()
+
+//hardwareCatalog/item[./model='%WD%']/type/text()

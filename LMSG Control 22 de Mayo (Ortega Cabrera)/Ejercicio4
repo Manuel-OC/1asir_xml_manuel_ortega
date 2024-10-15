@@ -1,0 +1,11 @@
+//*[@num]
+
+//capitulo[./parrafo/enlace/@href]
+
+//capitulo[./parrafo/enlace/@href and @public='si']
+
+//capitulo[@num=1]/parrafo
+
+//capitulo[position()=1]
+
+//capitulo[position()=last()]

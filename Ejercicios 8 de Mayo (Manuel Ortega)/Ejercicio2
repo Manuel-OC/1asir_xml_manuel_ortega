@@ -1,0 +1,20 @@
+g)
+//inventario/equipos/equipo[./@equipo='E003']/@espacio
+
+f)
+//inventario/modelos/modelo/modelo[.='Sierra DT6300A']
+
+e)
+//inventario/modelos/modelo/marca[.='Inves']
+
+d)
+//inventario/espacios/espacio[@id='A112']/ocupante/text()
+
+c)
+//inventario/espacios/espacio/ocupante/text()
+
+b)
+//inventario/modelos/modelo/modelo/text()
+
+a)
+//inventario/modelos/modelo/dispositivo/@id 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banco>
+    <sucursal codigo='...'>
+        <cuenta id='...'> 
+        </cuenta>
+    </sucursal>
+    
+    <clientes-cuentas>
+        <cliente-cuenta>
+            <cliente></cliente>
+            <cuenta></cuenta>
+            <permisos></permisos>
+        </cliente-cuenta>
+    </clientes-cuentas>
+    
+    <clientes>
+        <cliente nif=''>
+        </cliente>
+    </clientes>
+    
+    <domiciliaciones-cuentas>
+        <domiciliacion-cuenta>
+            <domiciliacion></domiciliacion>
+            <cuenta></cuenta>
+        </domiciliacion-cuenta>
+    </domiciliaciones-cuentas>
+    
+    <clientes-prestamos>
+        <cliente-prestamo>
+            <cliente></cliente>
+            <prestamo></prestamo>
+        </cliente-prestamo>
+    </clientes-prestamos>
+</banco>

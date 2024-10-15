@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elorrieta>
+    <ciclos>
+        <ciclo siglas="SMR">
+            <nombre>Sistemas microinformaticos y redes</nombre>
+            <rama>Informática y telecomunicaciones</rama>
+            <duracion unidad="horas">2000</duracion>
+            <grado>Medio</grado>
+            <referencia clasificacion="INSN">3</referencia>
+        </ciclo>
+        <ciclo siglas="ASIR">
+            <nombre>Administración de sistemas informáticos y redes</nombre>
+            <rama>Informática y telecomunicaciones</rama>
+            <duracion unidad="horas">2000</duracion>
+            <grado>superior</grado>
+            <referencia clasificacion="INSN">5b</referencia>
+            <ects>120</ects>
+        </ciclo>
+        <ciclo siglas="DAM">
+            <nombre>Desarrollo de aplicaciones multiplataforma</nombre>
+            <rama>Informática y telecomunicaciones</rama>
+            <duracion unidad="horas">2000</duracion>
+            <grado>superior</grado>
+            <referencia clasificacion="INSN">5b</referencia>
+            <ects>120</ects>
+        </ciclo>
+        <ciclo siglas="DAW">
+            <nombre>Desarrollo de aplicaciones web</nombre>
+            <rama>Informática y telecomunicaciones</rama>
+            <duracion unidad="horas">2000</duracion>
+            <grado>superior</grado>
+            <referencia clasificacion="INSN">5b</referencia>
+            <ects>120</ects>
+        </ciclo>
+    </ciclos>
+    <modulos>
+        <modulo codigo="0222">
+            <nombre>Sistemas operativos monopuesto</nombre>
+            <duracion unidad="horas">80</duracion>
+            <curso>1</curso>
+            <ciclos>
+                <ciclo siglas="SMR" />
+            </ciclos>
+        </modulo>
+        <modulo codigo="0373">
+            <nombre>Lenguajes de marcas y sistemas de gestión de la información</nombre>
+            <duracion unidad="horas">70</duracion>
+            <ects>7</ects>
+            <curso>1</curso>
+            <ciclos>
+                <ciclo siglas="ASIR"/>
+                <ciclo siglas="DAM"/>
+                <ciclo siglas="DAW"/>
+            </ciclos>
+        </modulo>
+    </modulos>
+</elorrieta>

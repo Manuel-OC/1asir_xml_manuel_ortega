@@ -1,0 +1,11 @@
+//modulos/modulo[@codigo = '0373']/nombre/text()
+
+//elorrieta/ciclos/ciclo[./grado='Medio']/nombre/text()
+
+//elorrieta/ciclos/ciclo[@siglas='DAW']/duracion/text()
+
+//elorrieta/ciclos/ciclo[./ects!=null]/nombre/text()
+
+//elorrieta/ciclos/ciclo[@siglas='ASIR' or @siglas='SMR']/nombre/text()
+
+//ciclos/ciclo[@siglas=//modulos/modulo[./duracion >= 80]/ciclos/ciclo/@siglas]/nombre/text()

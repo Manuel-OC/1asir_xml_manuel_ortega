@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejemplo1.xsl"?>
+<alumnos>
+  <alumno>
+    <name>Manuel</name>
+    <jew>No</jew>
+    <country>España</country>
+    <year>1995</year>
+  </alumno>
+  <alumno>
+    <name>Juan Diego</name>
+    <jew>No</jew>
+    <country>España</country>
+    <year>2004</year>
+  </alumno>
+  <alumno>
+    <name>Migue</name>
+    <jew>Sí</jew>
+    <country>España</country>
+    <year>2004</year>
+  </alumno>
+  <alumno>
+    <name>Ale</name>
+    <jew>Sí</jew>
+    <country>España</country>
+    <year>2003</year>
+  </alumno>
+  <alumno>
+    <name>David</name>
+    <jew>No</jew>
+    <country>Marruecos</country>
+    <year>2001</year>
+  </alumno>
+</alumnos>

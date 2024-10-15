@@ -1,0 +1,18 @@
+{
+	"hechos": {
+		"hecho": [
+			{
+				"descripcion": "IBM da a conocer el PC",
+				"fecha": {"dia": "12", "mes": "8", "anho": "1981"}
+			},
+			{
+				"descripcion": "Se funda Google",
+				"fecha": {"dia": "4", "mes": "9", "anho": "1998"}
+			},
+			{
+				"descripcion": "Se funda facebook",
+				"fecha": { "dia": "4", "mes": "2", "anho": "2004"}
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<liga>
+    <equipo nombre="Real Madrid" estadio="Santiago Bernabeu">
+        <jugador extranjero="no">
+            <nombre>Iker Casillas</nombre>
+            <posicion>Portero</posicion>
+            <edad>28</edad>
+            <patrocinador marca="adidas"/>
+        </jugador>
+        <jugador>
+            <!-- Esto es un comentario -->
+            <nombre>Xabi Alonso</nombre>
+            <posicion>Medio</posicion>
+            <edad>27</edad>
+            <patrocinador marca="nike"/>
+        </jugador>
+        <jugador extranjero="si">
+            <nombre>Cristiano Ronaldo</nombre>
+            <posicion>Delantero</posicion>
+            <edad>24</edad>
+            <patrocinador marca="nike"/>
+        </jugador>
+    </equipo>
+    <equipo nombre="FC Barcelona" estadio="Camp Nou">
+        <jugador extranjero="no">
+            <nombre>Valdés</nombre>
+            <posicion>Portero</posicion>
+            <edad>22</edad>
+            <patrocinador marca="adidas"/>
+        </jugador>
+        <jugador>
+            <nombre>Xavi</nombre>
+            <posicion>Medio</posicion>
+            <edad>29</edad>
+            <patrocinador marca="Kappa"/>
+        </jugador>
+        <jugador extranjero="si">
+            <nombre>Lionel Messi</nombre>
+            <posicion>Delantero</posicion>
+            <edad>23</edad>
+            <patrocinador marca="kappa"/>
+        </jugador>
+    </equipo>
+</liga>

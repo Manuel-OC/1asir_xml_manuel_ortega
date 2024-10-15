@@ -1,0 +1,52 @@
+{
+    "libreria": {
+        "libros": {
+            "libro": [
+                {
+                    "id": 1,
+                    "codigo": 22222,
+                    "nombre": "Juego de Tronos",
+                    "editorial": "Edebé",
+                    "ano": 2007,
+                    "autor": "George RR Martin"
+                },
+                {
+                    "id": 2,
+                    "codigo": 33333,
+                    "nombre": "Harry Potter",
+                    "editorial": "Anaya",
+                    "ano": 1997,
+                    "autor": "JK Rowling"
+                }
+            ]
+        },
+        "prestamos": {
+            "prestamo": [
+                {
+                    "ejemplar": 1,
+                    "socio": "Lolo",
+                    "fecha": "21-05-2024"
+                },
+                {
+                    "ejemplar": 2,
+                    "socio": "Alberto",
+                    "fecha": "22-05-2024"
+                }
+            ]
+        },
+        "socios": {
+            "socio": [
+                {
+                    "dni": 33333,
+                    "nombre": "Lolo",
+                    "direccion": "calle falsa 1"
+                },
+                {
+                    "dni": 888888,
+                    "nombre": "Alberto",
+                    "direccion": "calle falsa 2"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <cd>
+        <artista>Camilo Sesto</artista>
+        <titulo>Jesucristo Superstar</titulo>
+    </cd>
+    <cd>
+        <artista>Bertín Osborne</artista>
+        <titulo>Buenas noches señora</titulo>
+    </cd>
+    <cd>
+        <artista>Camilo Sesto</artista>
+        <titulo>Yo soy aquel</titulo>
+    </cd>
+</catalogo>

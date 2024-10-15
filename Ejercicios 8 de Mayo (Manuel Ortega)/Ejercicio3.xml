@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <nombre>Manuel</nombre>
+        <apellido1>Abril</apellido1>
+        <apellido2>Tardio</apellido2>
+        <localidad>Conil</localidad>
+    </alumno>
+    <alumno>
+        <nombre>Elena</nombre>
+        <apellido1>Acedo</apellido1>
+        <apellido2>Manchon</apellido2>
+        <localidad>Conil</localidad>
+    </alumno>
+    <alumno>
+        <nombre>Javier</nombre>
+        <apellido1>Acosta</apellido1>
+        <apellido2>Gonzalez</apellido2>
+        <localidad>Jerez</localidad>
+    </alumno>
+    <alumno>
+        <nombre>Laura</nombre>
+        <apellido1>Aguado</apellido1>
+        <apellido2>Perez</apellido2>
+        <localidad>Chiclana</localidad>
+    </alumno>
+    <alumno>
+        <nombre>MariaInmaculada</nombre>
+        <apellido1>Aguilar</apellido1>
+        <apellido2>Leon</apellido2>
+        <localidad>Jerez</localidad>
+    </alumno>
+</alumnos>
